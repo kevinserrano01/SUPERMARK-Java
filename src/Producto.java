@@ -21,28 +21,54 @@ public class Producto {
     }
 
     // getters y setters
-    public Integer getId() {
-        return id;
-    }
     
+    public Integer getId() {
+        return this.id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public String getNombre() {
-        return nombre;
+        return this.nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getMarca() {
-        return marca;
+        return this.marca;
     }
-    
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
     public Date getF_venc() {
-        return f_venc;
+        return this.f_venc;
+    }
+
+    public void setF_venc(Date f_venc) {
+        this.f_venc = f_venc;
     }
 
     public double getPrecio() {
-        return precio;
+        return this.precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+    public Integer getStock() {
+        return this.stock;
+    }
+
+    public void setStock(Integer stock) {
+        this.stock = stock;
     }
     
-    public Integer getStock() {
-        return stock;
-    }
     // Metodos
 }
