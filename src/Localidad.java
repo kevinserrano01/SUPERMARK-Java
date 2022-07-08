@@ -50,7 +50,7 @@ public class Localidad {
 
 //METODOS
 
-    public String toString(){
+    public String getLocalidad(){
         return (this.provincia+","+this.ciudad+","+this.departamento);
     }
 
